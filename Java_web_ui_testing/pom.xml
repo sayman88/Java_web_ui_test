@@ -26,6 +26,14 @@
       <version>5.9.1</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.opentest4j/opentest4j -->
+    <dependency>
+      <groupId>org.opentest4j</groupId>
+      <artifactId>opentest4j</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -42,6 +50,61 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.5.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.gitlab.cdc-java.util/cdc-util-core -->
+    <dependency>
+      <groupId>com.gitlab.cdc-java.util</groupId>
+      <artifactId>cdc-util-core</artifactId>
+      <version>0.28.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.cedarsoftware/java-util -->
+    <dependency>
+      <groupId>com.cedarsoftware</groupId>
+      <artifactId>java-util</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-chrome-driver</artifactId>
+      <version>4.5.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-remote-driver</artifactId>
+      <version>4.5.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.opentest4j/opentest4j -->
+    <dependency>
+      <groupId>org.opentest4j</groupId>
+      <artifactId>opentest4j</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-slf4j-impl</artifactId>
+      <version>2.19.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>5.3.0</version>
+    </dependency>
     <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
     <dependency>
       <groupId>org.assertj</groupId>
@@ -67,7 +130,7 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>1.4.3</version>
+      <version>1.4.4</version>
       <scope>test</scope>
     </dependency>
     <dependency>
